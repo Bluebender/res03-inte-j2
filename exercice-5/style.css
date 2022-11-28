@@ -1,5 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body > header > h1{
-    background-color: blue;
+    height: 6vh;
+    width: 6vw;
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+}
+
+body > header > nav a{
+    text-decoration: none;
+    color: black;
+}
+body > header > nav li{
+    list-style-type: none;
     height: 5vh;
     width: 5vw;
+    position: absolute;
+}
+
+body > header > nav li:nth-of-type(1){
+    top: 2vh;
+    right: 44vw;
+}
+body > header > nav li:nth-of-type(2){
+    top: 2vh;
+    right: 37vw;
+}
+body > header > nav li:nth-of-type(3){
+    top: 2vh;
+    right: 30vw;
+}
+body > header > nav li:nth-of-type(4){
+    top: 2vh;
+    right: 23vw;
+}
+body > header > nav li:nth-of-type(5){
+    top: 2vh;
+    right: 16vw;
+}
+body > header > nav li:nth-of-type(6){
+    top: 2vh;
+    right: 9vw;
+}
+body > header > nav li:nth-of-type(7){
+    top: 2vh;
+    right: 2vw;
+}
+
+main h2{
+    height: 30vh;
+    width: 50vw;
+    position: absolute;
+    top: 20vh;
+    left: 25vw;
+    font-size: 5rem;
+}
+main > section{
+    background-color: #D3D3D3;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 60vh;
+    
+}
+main h3{
+    position: absolute;
+    top: 10vh;
+    left: 6vw;
+}
+main p{
+    position: absolute;
+    top: 10vh;
+    right: 6vw;
+}
+main article{
+    background-color: red;
+    width: 27vw;
+    height: 90vh;
+    position: absolute;
+}
+main article img{
+    width: 27vw;
+}
+main article h4{
+    width: 24vw;
+    background-color: blue;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 45vh;
+    left: 1.5vw;
+}
+main article p:nth-of-type(1){
+    font-size: 1.1rem;
+    position: absolute;
+    top: 40vh;
+    left: 1.5vw;
+}
+main article p:nth-of-type(2){
+    font-size: 1.1rem;
+    position: absolute;
+    top: 40vh;
+    right: 1.5vw;
+}
+main article p:nth-of-type(3){
+    width: 24vw;
+    background-color: blue;
+    font-size: 1.1rem;
+    position: absolute;
+    top: 60vh;
+    left: 1.5vw;
+}
+main article p:nth-of-type(4){
+    font-size: 1.1rem;
+    position: absolute;
+    top: 80vh;
+    left: 1.5vw;
+}
+    
+    
+
+article:nth-of-type(1){
+    top: 20vh;
+    left: 6vw;
+}
+article:nth-of-type(2){
+    top: 20vh;
+    left: 36.5vw;
+}
+article:nth-of-type(3){
+    top: 20vh;
+    left: 67vw;
 }
